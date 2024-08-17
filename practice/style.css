@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f7;
+}
+.header-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.logo{
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding-left: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 400;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.nav-item a{
+    flex-direction: row;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+
+} */
+
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    /* z-index: 9; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between; /* Center the navigation bar contents */
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 5px 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black; 
+    font-weight: 600;
+    padding: 4px;
+    display: block;
+    margin: 10px;
+    border-bottom: 4px solid transparent;
+    
+}
+
+.nav-item a:hover {
+    border-color: lightcoral;
+    color: blue; /* Hover color */
+}
+
+.heroproduct{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+}
+.product-section{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    position: relative;
+    width:400px;
+    height: 390px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.prod-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 290px;
+}
+
+.desc, .price{
+    font-size: 24px;
+    font-weight: 600;
+}
+.icon{
+    width: 12%;
+    height: 10%;
+    border-radius: 8px;
+    background-color: aqua;
+    position: absolute;
+    top: 330px;
+    left: 280px;
+    display: flex;
+
+}
+ i{
+padding: 12px;
+}
+
+.container2{
+    width: 500px;
+    height: 520px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 150px;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    margin: 10px;
+    background-image: url(./images/gaming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blog1{
+    width: 70%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #fffefe;
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog1-container{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+.blog-title{
+   padding: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+.blog-title h3{
+    font-size: 34px;
+    text-align: center;
+}
+.blog1-img{
+    border-radius: 10px;
+    width: 50%;
+}
+.blog-title p{
+    padding: 20px 0;
+}
+
+.blog-title a:hover{
+    color: blue;
+}

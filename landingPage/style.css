@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+}
+.nav-bar{
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    z-index: 9;
+    background-color: lightgray;
+}
+.nav-header
+{
+    margin: auto;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.logo{
+    /* display: flex; */
+    width: 10%;
+}
+
+.menu-btn{
+    font-size: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+    color: white;
+}
+.nav-list{
+    position:absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:8x;
+    z-index: -1;
+    transition: .5s;
+    padding: 10px;
+    
+}
+.nav-list.open{
+    transform: translateY(0);
+
+}
+
+.nav-item a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-item a:hover{
+    color: blue;
+}
+.nav-btns{
+    display: none;
+    margin: 3px;
+    padding: 5px; 
+    background-color: aqua;
+     width: auto;
+}
+
+/* 
+.sign-up-btn, .login-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    border:  none;
+    font-size: 20px;
+    padding: 5px 1px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+
+.sign-up-btn:hover, .login-btn:hover{
+    background-color: rgb(125, 4, 246);
+} */
